@@ -1,0 +1,6 @@
+{
+  "name": "네온 테트리스 : 인피니티",
+  "description": "실제 서비스 가능한 수준의 프리미엄 네온 사이버펑크 아케이드 테트리스 게임",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

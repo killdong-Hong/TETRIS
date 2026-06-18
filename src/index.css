@@ -1,0 +1,127 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  --color-neon-blue-base: #00f3ff;
+  --color-neon-pink-base: #ff00ff;
+  --color-neon-green-base: #39ff14;
+}
+
+/* Custom background layout of the Cyberpunk Arcade */
+body {
+  background-color: #050505 !important;
+  color: #ffffff;
+  font-family: "Pretendard", "Apple SD Gothic Neo", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Immersive UI Panel Class Overrides */
+.panel-card {
+  background: rgba(10, 10, 20, 0.85) !important;
+  border: 1px solid rgba(0, 243, 255, 0.3) !important;
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.panel-card-magenta {
+  background: rgba(20, 10, 20, 0.85) !important;
+  border: 1px solid rgba(255, 0, 2ff, 0.3) !important;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.panel-card-yellow {
+  background: rgba(20, 18, 10, 0.85) !important;
+  border: 1px solid rgba(234, 179, 8, 0.3) !important;
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.panel-card-red {
+  background: rgba(25, 10, 10, 0.85) !important;
+  border: 1px solid rgba(239, 68, 68, 0.3) !important;
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.label-sm {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: rgba(0, 243, 255, 0.7) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.label-sm-magenta {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: rgba(255, 0, 255, 0.7) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.label-sm-yellow {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: rgba(234, 179, 8, 0.7) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.label-sm-emerald {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  color: rgba(57, 255, 20, 0.7) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+}
+
+.value-lg {
+  font-family: monospace !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
+.value-lg-magenta {
+  font-family: monospace !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  color: #ff00ff !important;
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.6) !important;
+}
+
+.value-lg-emerald {
+  font-family: monospace !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  color: #39ff14 !important;
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.6) !important;
+}
+
+.value-lg-yellow {
+  font-family: monospace !important;
+  font-size: 30px !important;
+  font-weight: 800 !important;
+  color: #eab308 !important;
+  text-shadow: 0 0 10px rgba(234, 179, 8, 0.6) !important;
+}
+
+.board-frame {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border: 4px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 243, 255, 0.1) !important;
+}
+
+/* Neon key tag layout */
+.key-tag {
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(10, 10, 20, 0.5) !important;
+}
